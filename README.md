@@ -1,8 +1,8 @@
-# Session ID - Session Title
+# XP266 - Experience how to govern the delivery of content in SAP Build solutions
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2025 session called XP266 - Experience how to govern the delivery of content in SAP Build solutions.  
 
 ## Overview
 
