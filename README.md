@@ -146,3 +146,153 @@ All high-level commands (see Working with Provided Catalogs) are built on top of
 #### Service Specifics
 **Quota Calculation for Core Commands**
 The service comes with a wide range of provided commands for managing various aspects of the platform. They are built on top of several "core" commands that provide essential functionality. For each of these core commands, quotas (API calls) are calculated in a different way.
+
+
+What's New for 2024 - 2025
+
+### Technical Component Environment
+**Title:** Service Availability
+**Description:** Now also available in region Japan (Tokyo).
+
+### Technical Component Environment
+**Title:** Commercial Information in the Guide
+**Description:** You can now refer to the new “Service Plans and Metering” page in the documentation. It contains important commercial information, including an overview of the available service plans, and an explanation of how quotas (API calls) are calculated for core and high-level commands. This information will help you understand how the service is billed. See Service Plans and Metering.
+
+### Technical Component Environment
+**Title:** AI-Assisted Dynamic Expression Generation
+**Description:** The Expression Playground is enhanced with generative AI capabilities that allow you to generate dynamic expressions by providing a simple prompt. To use this feature, you need to enable the Content Generation Assistant. See Dynamic Expression Playground and Generative AI.
+
+### Technical Component Environment
+**Title:** Function 'reduce' Now Supported in Dynamic Expressions
+**Description:** The reduce function is now supported and you can use it in your dynamic expressions. See Supported Expression Elements.
+
+### Technical Component Environment
+**Title:** New Tags for Execution Status Change Events
+**Description:** The following new tags are added to the Execution Status Change event that can be matched by the Alert Notification service:
+*   autopi:lastReportedStatus - the execution status which was reported by the previous Execution Status Change event
+*   autopi:executorPath - the executor path to the exact step at which the execution failed
+See Execution Status Change and Enabling Automation Pilot Events.
+
+### Technical Component Environment
+**Title:** Updated Prerequisites for Cloud Connector
+**Description:** The prerequisite list for integrating Automation Pilot with the Connector has been updated to include the requirement for outbound network access to the Automation Pilot Connectivity Proxy endpoints. Information about the endpoints is now included in Service Availability. See Integrating the Service with the Connector.
+
+### Technical Component Environment
+**Title:** Service Availability
+**Description:** The service is now also available in the following regions:
+*   Europe (Netherlands)
+*   US East (VA)
+*   Canada (Montreal)
+See Service Availability.
+
+### Technical Component Environment
+**Title:** Integration with Connector
+**Description:** You can now use your existing Cloud Connector setup to interact with systems that are not directly accessible from the public Internet. This integration enables you to perform different types of requests and automate the operation of resources in your on-premise systems. Currently, the integration is available in HttpRequest Command, SendEmail Command, and Jenkins (jenkins-sapcp) Catalog. See Integrating the Service with Connector.
+
+### Technical Component Environment
+**Title:** Cloud Transport Management Service Catalog
+**Description:** You can now use commands for management of transport nodes, routes, and transport requests. See Cloud Transport Management Service (ctms-sapcp) Catalog.
+
+### Technical Component Environment
+**Title:** Monitoring with ALM
+**Description:** With the Configuration and Security Analysis app of ALM, you can now check if your tenant is configured in alignment with the security recommendations. See Monitoring with ALM.
+
+### Technical Component Environment
+**Title:** "Use for Generative AI Assistant" Additional Feature
+**Description:** This feature enables commands and inputs to be utilized for generation of scheduled executions by the Content Generation Assistant. See Additional Features.
+
+### Technical Component Environment
+**Title:** New Documentation for Standalone Operator
+**Description:** You can now find information on how to use the Standalone Operator to trigger commands remotely in a local or on-premise environment. See Standalone Operator.
+
+### Technical Component Environment
+**Title:** New Documentation Sections for Content Connectors
+**Description:** You can now find information on how you can back up your content in a specified repository by using content connectors. See Content Connector, Backing Up Content, Restoring Content.
+
+### Technical Component Environment
+**Title:** Dynamic Expression Playground
+**Description:** You can now use the Expression Playground to test and debug dynamic expressions before using them in your commands. The playground also gives you the option to load commands that are prepopulated with sample values, which allows you to test how the expressions will function during execution. See Dynamic Expression Playground.
+
+### Technical Component Environment
+**Title:** New Catalog: Health Monitoring for ALM
+**Description:** You can now use new commands for troubleshooting and recovering resources from ALM. See Health Monitoring for ALM (calmhm-sapcp) Catalog.
+
+### Technical Component Environment
+**Title:** SensitiveExecuteHanaCloudSqlStatement Command
+**Description:** You can now use the new SensitiveExecuteHanaCloudSqlStatement command. See SensitiveExecuteHanaCloudSqlStatement Command.
+
+### Technical Component Environment
+**Title:** ForEach and SensitiveForEach Commands
+**Description:** Both ForEach (Version 1) and SensitiveForEach (Version 1) commands are now deprecated. You can use their respective Version 2 commands instead. See ForEach Version 2 Command and SensitiveForEach Version 2 Command.
+
+### Technical Component Environment
+**Title:** New Landscape Deployment
+**Description:** The service is now productively available on the (Regulated Customers) landscape. See Service Availability.
+
+### Technical Component Environment
+**Title:** New events
+**Description:** You can now use more events supported by the Alert Notification service. See Enabling Automation Pilot Events.
+
+### Technical Component Environment
+**Title:** Content Generation Assistant - General Availability
+**Description:** The Content Generation Assistant is now in general availability. You can generate AI-based commands, executors, inputs, and scheduled executions. See Generative AI.
+
+### Technical Component Environment
+**Title:** New Command in the Catalog
+**Description:** You can further utilize the generative AI capabilities by using the new GenerateGpt4OmniCompletion command from the provided (aicore-sapcp) catalog. See GenerateGpt4OmniCompletion Command.
+
+### Technical Component Environment
+**Title:** New Section Working with Provided Catalogs in the Guide
+**Description:** A new section Working with Provided Catalogs has been added to the guide. You can now find more information about the Alert Notification Service (ans-sapcp) catalog. See Alert Notification Service (ans-sapcp) Catalog.
+
+### Technical Component Environment
+**Title:** Dry Run for a Command
+**Description:** You can now test any command by triggering a dry run. See Managing Commands.
+
+### Technical Component Environment
+**Title:** Executor Descriptions
+**Description:** You can now add a description to an executor. See Executor.
+
+### Technical Component Environment
+**Title:** Commenting Functionality for Executions
+**Description:** You can now add additional troubleshooting information to each execution by choosing the Comment button in the UI. See Managing Executions.
+
+### Technical Component Environment
+**Title:** Alert Notification Service Catalog
+**Description:** You can now produce or list custom events in the Alert Notification service. See Provided Commands.
+
+### Technical Component Environment
+**Title:** SendAlertNotificationServiceEvent Command
+**Description:** The SendAlertNotificationServiceEvent command is deprecated. You can now use the SendAnsEvent command instead. See Producing Custom Events.
+
+### Technical Component Environment
+**Title:** ExecutePythonScript Command
+**Description:** For better usability, you can now use a dedicated command to execute Python scripts. See Provided Commands.
+
+### Technical Component Environment
+**Title:** Time Zone Support for Scheduling Executions
+**Description:** You can now select the time zone for which you want to schedule an execution. See Scheduled Executions.
+
+### Technical Component Environment
+**Title:** Catalog
+**Description:** You can now use the generative AI capabilities provided by the generative AI hub. See Provided Commands.
+
+### Technical Component Environment
+**Title:** Email Operations Catalog
+**Description:** You can now use commands associated with email operations. See Provided Commands.
+
+### Technical Component Environment
+**Title:** New Example Scenarios
+**Description:** New example commands were added to the Automation Pilot Samples Repository. They demonstrate the automation of various scenarios such as check HANA Cloud availability, stop/start all Cloud Foundry applications, and so on. See Example Scenarios.
+
+### Technical Component Environment
+**Title:** Kubernetes Operators
+**Description:** You now have an opportunity to create and execute Kubernetes operators, capitalizing on the same low-code/no-code tools already available in the service for alternate environments. See Operator and Kubernetes Operator.
+
+### Technical Component Environment
+**Title:** Remote Work Processor
+**Description:** An additional permission called Remote Work Processor has been defined which allows you to create run configuration entities when managing Kubernetes operators. The permission helps to establish a successful connection between a remote work processor deployed on a customer environment and the backend. See Permissions and Roles.
+
+### Technical Component Environment
+**Title:** Subscription Plan Update
+**Description:** You can now update your existing free subscription plan to a standard one. See Initial Setup.
