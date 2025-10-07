@@ -81,7 +81,7 @@ To enable the **Release** stage in your SAP Continuous Integration and Delivery 
 
 4. In another browser window, open the SAP BTP cockpit and navigate to the **XP266_CENTRAL** subaccount in which the SAP Cloud Transport Management instance is available.
 5. From the navigation area, choose **Services** → **Instances and Subscriptions**.
-6. From the **Instances** area, find the **Service Key** named **XP266CTS** of Service Cloud Transport Management.
+6. From the **Instances** area, find the **Service Key** named **XP266CTS** of Cloud Transport Management.
 7. Here, in the **credentials** column click they *1 key* that has been created already and choose **Copy JSON** to copy the entire service key.
 8. Back in SAP Continuous Integration and Delivery, paste the copied service key into the **Service Key** text box of the **Create Credentials** pop-up window.
     <br>![](/exercises/ex1/images/credential_add_ctms_key.png)
