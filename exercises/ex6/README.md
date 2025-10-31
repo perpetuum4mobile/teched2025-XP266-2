@@ -30,7 +30,7 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 
 ## Exercise 6.1 - Deploy and monitor changes in your Quality Assurance and Production environment
 
-1. The **transports in the Transports** section are **released** and show the **CTMS target node** as target tenant.
+1. The **transports in the Transports** section are **released** and show the **CTMS target node** as target.
 
     <br>![alt text](../ex6/images/transport_status_target.png)
 2. Click **"Deploy"** and confirm the deployment to the target node in the dialog.
@@ -59,7 +59,7 @@ In this exercise, we will manage the assignment and deployment of Cloud Transpor
 9. Navigate back to the Feature and **approve the Feature for Production** by clicking "Approve for Production".
 
     <br>![alt text](../ex6/images/approve_for_prod.png)
-10. In status "Ready for Production" you can **trigger the deployment to production by clicking "Deploy"** in the Transports section. Confirm the dialog for the deployment to target tenant PRD.
+10. In status "Ready for Production" you can **trigger the deployment to production by clicking "Deploy"** in the Transports section. Confirm the dialog for the deployment to target PRD.
 
     <br>![alt text](../ex6/images/deploy_to_prod.png)
 11. Refresh the section to retrieve the import results.
