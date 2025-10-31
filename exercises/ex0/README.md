@@ -8,7 +8,7 @@ At the end, you will access the SAP BTP cockpit and SAP BTP accounts that have b
 
 1. Navigate to [GitHub](https://github.com/).
 
-2. Click **Sign up for GiHhub**.
+2. Click **Sign up for GitHub**.
 
 3. Alternatively, click on **Continue with Google** to sign up using social login.
 
